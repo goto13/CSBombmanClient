@@ -10,6 +10,8 @@ namespace CSBombmanClient
 	{
 		static void Main(string[] args)
 		{
+			var ai = new AI();
+			ai.Run2();
 		}
 	}
 }
